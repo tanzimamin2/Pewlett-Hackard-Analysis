@@ -19,7 +19,7 @@ Lets take a closer look at the analysis and our findings:-
 
 * This is the list of **unique** employees who will be retiring soon according to their titles. The image below is an exerpt from the [full table](https://github.com/tanzimamin2/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv)
 
-  ![image](https://user-images.githubusercontent.com/93144225/146445629-0448fc78-740c-4c10-b4a1-20c72f1aa0fe.png)
+![image](https://user-images.githubusercontent.com/93144225/146484671-6010edaa-54ed-413b-b323-ec3c0b570489.png)
 
 * We made a **mentorship eligibility** table that holds the employees who are eligible to participate in a mentorship program. The image below is an exerpt from the [full table](https://github.com/tanzimamin2/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv)
 
