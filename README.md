@@ -15,14 +15,24 @@ Lets take a closer look at the analysis and our findings:-
 
   ![image](https://user-images.githubusercontent.com/93144225/146445039-145f2161-ac31-42f5-bf21-c101f6bf0e86.png)
 
-* This is the list of employees who will be retiring soon according to their titles. The image below is an exerpt from the [full table](https://github.com/tanzimamin2/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv).
+* This is a [list](https://github.com/tanzimamin2/Pewlett-Hackard-Analysis/blob/main/Data/retirement_titles.csv) of employees who will be retiring soon. But, there are duplicate entries for some employees because they have switched titles over the years. As such we had to create another list mentioned underneath.
 
-  ![image](https://user-images.githubusercontent.com/93144225/146447433-bf10ff12-397d-452a-b423-04d432dd8e86.png)
+* This is the list of **unique** employees who will be retiring soon according to their titles. The image below is an exerpt from the [full table](https://github.com/tanzimamin2/Pewlett-Hackard-Analysis/blob/main/Data/unique_titles.csv)
 
-* This is the list of employees who is eligible for mentorship. The image below is an exerpt from the [full table](https://github.com/tanzimamin2/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv). Luckily there is a lot of eligible employees, they should help ease the “silver tsunami”.
+  ![image](https://user-images.githubusercontent.com/93144225/146445629-0448fc78-740c-4c10-b4a1-20c72f1aa0fe.png)
 
-  ![image](https://user-images.githubusercontent.com/93144225/146448207-c1fadcdd-775d-40a2-8492-4e297d9e01fd.png)
+* We made a **mentorship eligibility** table that holds the employees who are eligible to participate in a mentorship program. The image below is an exerpt from the [full table](https://github.com/tanzimamin2/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibilty.csv)
 
+  ![image](https://user-images.githubusercontent.com/93144225/146473434-602c3d5e-0df6-4748-bce4-f1bae5d622a2.png)
+
+
+When we see the table, we can come to these conclusions:-
+
+* Urban cities have the **highest total riders** followed by Suburban and Rural cities.
+* The trend continues when it comes to **Total Drivers**, urban cities have the most drivers and rural cities have the least drivers.
+* Since the total riders and drivers are the highest in urban cities, they have the **highest Total Fares**. Followed by suburban and rural cities.
+* Despite urban cities having the highest total fares, riders and drivers. Their **average fare per ride** is the lowest, followed by suburban and rural cities.
+* Interestingly, rural cities have the highest amount when it comes to **average fare per driver**. Followed by suburban and urban cities.
 
 
 ## Summary
