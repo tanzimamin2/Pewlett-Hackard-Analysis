@@ -30,7 +30,27 @@ To summarize our report we must answer two important questions-
 
 _**How many roles will need to be filled as the "silver tsunami" begins to make an impact?**_
 
+If we run the code below we can see that there will be 90,398 people that may be retiring. If we add up the number of mentorship eligible employees we only get 1,549 employees. From these data we can conclude that more new people need to be trained as soon as possible, or the effects of the "silver tsunami" could cause major problems.
 
+![image](https://user-images.githubusercontent.com/93144225/146482333-b6f774a5-539c-4fa9-854a-5881fd5d8e1f.png)
+
+```
+SELECT SUM(count) FROM retiring_titles;
+```
+
+_**Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**_
+
+We ran the following code to count the number of employees eligible for mentorship program by title. We found that there are **zero** managers that are eligible for mentorship, this is a big problem. If any mangers retire without training someone to take their place it will be very inconvinient.
+
+![image](https://user-images.githubusercontent.com/93144225/146481224-c4c24cf2-87ad-446d-8100-f09def976e62.png)
+
+```
+-- Employees eligible for mentorship program by title
+SELECT COUNT(me.title), me.title
+FROM mentorship_eligibility as me
+GROUP BY me.title
+ORDER BY COUNT(me.title) ASC;
+```
 
 ## Links
   * Visit this [link](https://github.com/tanzimamin2/PyBer_Analysis) for the excel dataset and other resources.
