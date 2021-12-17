@@ -53,5 +53,5 @@ ORDER BY COUNT(me.title) ASC;
 ```
 
 ## Links
-  * Visit this [link](https://github.com/tanzimamin2/PyBer_Analysis) for the excel dataset and other resources.
+  * Visit this [link](https://github.com/tanzimamin2/Pewlett-Hackard-Analysis) for the excel dataset and other resources.
    
